@@ -6,7 +6,7 @@ const IMG={
  beatles:'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=2200&q=82',
  freddie:'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=2200&q=84',
  adele:'https://images.unsplash.com/photo-1524650359799-842906ca1c06?auto=format&fit=crop&w=2200&q=84',
- elvis:'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=2200&q=84'
+ elvis:'/assets/elvis-gates.svg'
 };
 function pick(n){n=n.toLowerCase();
  if(/swisstime/.test(n))return ['swisswatch','A premium identity for Swiss watches and horology'];
