@@ -42,9 +42,13 @@
     .domain{font-size:20px;font-weight:800;overflow-wrap:anywhere}
     .grade{font-size:11px;color:#58e6c2;border:1px solid #28596a;border-radius:999px;padding:4px 8px;white-space:nowrap}
     .meta{margin:10px 0 20px;color:#8299ab;font-size:13px}
-    .price-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .price-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
     .price{font-size:23px;font-weight:900}
-    .view{background:transparent;color:#58e6c2;border:1px solid #2c696b;border-radius:8px;padding:9px 12px;font-weight:800;cursor:pointer}
+    .card-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .buy,.offer,.view{border-radius:8px;padding:10px 11px;font-weight:800;cursor:pointer;font-size:13px}
+    .buy{background:#58e6c2;color:#06111f;border:1px solid #58e6c2}
+    .offer{background:#173148;color:#f7fbff;border:1px solid #31546b}
+    .view{grid-column:1/-1;background:transparent;color:#9fded2;border:1px solid #2c696b}
     .pager{display:flex;justify-content:center;align-items:center;gap:12px;margin-top:30px}
     .pager button{background:#102337;color:#fff;border:1px solid #24425a;border-radius:8px;padding:10px 15px;cursor:pointer}
     .pager button:disabled{opacity:.35;cursor:not-allowed}
@@ -56,6 +60,12 @@
     .fan-use strong{color:#f4d476}
     .fan-disclaimer{display:none;margin-top:18px;padding:15px;border-radius:10px;background:#152b3d;border:1px solid #8c7635;color:#d8e2e8;font-size:13px}
     .fan-disclaimer.show{display:block}
+    .about{padding:76px 0;background:#081624;border-top:1px solid #183149}
+    .about-grid{display:grid;grid-template-columns:360px 1fr;gap:52px;align-items:center}
+    .about-art{width:100%;display:block;border-radius:20px;border:1px solid #28536b;box-shadow:0 24px 70px rgba(0,0,0,.38)}
+    .about h2{font-size:40px;margin:0 0 16px}.about p{color:#afc0cc}
+    .contact-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .secondary{display:inline-block;color:#d7e5eb;border:1px solid #31546b;border-radius:9px;padding:12px 18px;font-weight:800;text-decoration:none}
     .sell{margin-top:48px;padding:72px 0;background:#0b1a29;border-top:1px solid #183149;border-bottom:1px solid #183149}
     .sellbox{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}
     .sell h2{font-size:40px;margin:0 0 16px} .sell p{color:#a9bac7}
@@ -70,7 +80,7 @@
     .close{position:absolute;right:16px;top:14px;background:none;border:0;color:#9cb0c0;font-size:26px;cursor:pointer}
     .modal h3{font-size:27px;margin:0 36px 8px 0} .modal .modal-price{font-size:28px;color:#58e6c2;font-weight:900;margin:18px 0}
     .modal p{color:#a7bac8} .small{font-size:12px;color:#72899a}
-    @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.searchbar{grid-template-columns:1fr 1fr}.searchbar input{grid-column:1/-1}.sellbox{grid-template-columns:1fr}.fan-use-box{grid-template-columns:1fr}}
+    @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.searchbar{grid-template-columns:1fr 1fr}.searchbar input{grid-column:1/-1}.sellbox{grid-template-columns:1fr}.fan-use-box{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.about-art{max-width:420px}}
     @media(max-width:620px){nav a:not(.sell-btn){display:none}.hero{padding-top:64px}h1{letter-spacing:-2px}.grid{grid-template-columns:1fr}.searchbar{grid-template-columns:1fr}.searchbar input{grid-column:auto}.section-head{display:block}}
   </style>
 </head>
@@ -81,6 +91,7 @@
     <nav>
       <a href="#marketplace">Marketplace</a>
       <a href="#fan-use">Fan Use</a>
+      <a href="#about">About Us</a>
       <a href="#sell">How to Sell</a>
       <a class="sell-btn" href="#sell">List Your Domain</a>
     </nav>
@@ -160,6 +171,22 @@
   </div>
 </section>
 
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <img class="about-art" src="buyweb3-brand.webp" alt="BuyWeb3 digital identity brand artwork" width="900" height="900" loading="lazy">
+    <div>
+      <div class="eyebrow">Independent ownership · Curated over years</div>
+      <h2>About BuyWeb3</h2>
+      <p>BuyWeb3 was founded by <strong>Mark Leen</strong>, an independent entrepreneur, writer and collector of distinctive Web3 domain names. The portfolio was assembled over several years through extensive research, creative naming and personal investment.</p>
+      <p>The marketplace brings those names together for founders, communities, collectors and fans seeking a memorable digital identity. Every listing is independently owned and presented at an asking price; availability and transfer details are confirmed before payment.</p>
+      <p>Purchase requests and offers are handled directly through the BuyWeb3 WhatsApp contact while availability, payment and transfer details are confirmed.</p>
+      <div class="contact-row">
+        <a class="primary" href="https://wa.me/353861935277?text=Hello%20Mark%2C%20I%20am%20contacting%20you%20through%20BuyWeb3.store." target="_blank" rel="noopener">Contact Us on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer><div class="wrap">© 2026 Buy Web3 · buyweb3.store · Marketplace listings and asking prices are subject to confirmation.</div></footer>
 
 <div id="modal" class="modal" aria-hidden="true">
@@ -169,7 +196,7 @@
     <h3 id="modalDomain"></h3>
     <div id="modalMeta" class="meta"></div>
     <div id="modalPrice" class="modal-price"></div>
-    <p>This domain is listed from the Buy Web3 portfolio. Buyer enquiry and secure transfer/payment functionality will be connected in the next build.</p>
+    <p>Select <strong>Buy It Now</strong> to request this domain at the displayed asking price, or <strong>Make Offer</strong> to propose another amount. BuyWeb3 confirms availability and ownership before issuing a PayPal Goods &amp; Services invoice. Transfer begins only after cleared payment.</p>
     <p id="modalFanNotice" class="notice" style="display:none"><strong>Unofficial Fan Identifier:</strong> This listing is intended only for lawful, clearly unofficial fan, tribute, commentary, community or personal-identity use. No affiliation, sponsorship or endorsement is claimed. It must not be used for impersonation, implied endorsement, deceptive fundraising, official logos or unauthorized merchandise.</p>
     <p class="small">The displayed amount is an asking price, not an appraisal or guarantee of market value. All sales remain subject to ownership and transaction confirmation.</p>
   </div>
@@ -294,13 +321,28 @@ function render(){
       <div class="meta">${d.category} · .${d.extension}</div>
       <div class="price-row">
         <div class="price">${money(d.price)}</div>
-        <button class="view" data-domain="${d.domain}">View</button>
+        <span class="small">Asking price</span>
+      </div>
+      <div class="card-actions">
+        <button class="buy" data-domain="${d.domain}">Buy It Now</button>
+        <button class="offer" data-domain="${d.domain}">Make Offer</button>
+        <button class="view" data-domain="${d.domain}">View Details</button>
       </div>
     </article>`).join("");
   el("pageInfo").textContent="Page "+page+" of "+pages;
   el("prev").disabled=page<=1;
   el("next").disabled=page>=pages;
   document.querySelectorAll(".view").forEach(b=>b.onclick=()=>openDomain(b.dataset.domain));
+  document.querySelectorAll(".buy").forEach(b=>b.onclick=()=>startPurchase(b.dataset.domain,"buy"));
+  document.querySelectorAll(".offer").forEach(b=>b.onclick=()=>startPurchase(b.dataset.domain,"offer"));
+}
+
+function startPurchase(name,type){
+  const d=DOMAINS.find(x=>x.domain===name);if(!d)return;
+  const message=type==="buy"
+    ? `Hello Mark, I would like to buy ${d.domain} at the listed asking price of ${money(d.price)}. Please confirm availability and send the PayPal Goods & Services invoice instructions.`
+    : `Hello Mark, I would like to make an offer for ${d.domain}. The listed asking price is ${money(d.price)}. My offer is: `;
+  window.open("https://wa.me/353861935277?text="+encodeURIComponent(message),"_blank","noopener");
 }
 
 function openDomain(name){
