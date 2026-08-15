@@ -83,8 +83,11 @@
     .modal p{color:#a7bac8} .small{font-size:12px;color:#72899a}
     @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.searchbar{grid-template-columns:1fr 1fr}.searchbar input{grid-column:1/-1}.sellbox{grid-template-columns:1fr}.fan-use-box{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.about-art{max-width:420px}}
     @media(max-width:620px){nav a:not(.sell-btn){display:none}.hero{padding-top:64px}h1{letter-spacing:-2px}.grid{grid-template-columns:1fr}.searchbar{grid-template-columns:1fr}.searchbar input{grid-column:auto}.section-head{display:block}}
-  </style>
-</head>
+  
+/* BuyWeb3 localisation */
+.lang{width:auto!important;min-width:112px;background:#0b1c2d;color:#d5e4ed;border:1px solid #24435a;border-radius:8px;padding:8px 9px;font-size:13px;cursor:pointer}html[dir="rtl"] body{text-align:right}html[dir="rtl"] .nav,html[dir="rtl"] nav,html[dir="rtl"] .hero-stats,html[dir="rtl"] .section-head,html[dir="rtl"] .searchbar,html[dir="rtl"] .chips,html[dir="rtl"] .card-top,html[dir="rtl"] .price-row,html[dir="rtl"] .contact-row{direction:rtl}html[dir="rtl"] .domain,html[dir="rtl"] .price{direction:ltr;text-align:right}
+</style>
+<script defer src="/assets/i18n.js"></script></head>
 <body>
 <header>
   <div class="wrap nav">
@@ -287,7 +290,7 @@ function render(){
       </div>
       <div class="card-actions">
         ${d.status==="Sold"?'<button class="sold-actions" disabled>Sold — no longer available</button>':`<button class="buy" data-domain="${d.domain}">Buy It Now</button><button class="offer" data-domain="${d.domain}">Make Offer</button>`}
-        <button class="view" data-domain="${d.domain}">View Details</button>
+        <a class="view" href="/domain/${encodeURIComponent(d.domain)}/">View Details</a>
       </div>
     </article>`).join("");
   el("pageInfo").textContent="Page "+page+" of "+pages;

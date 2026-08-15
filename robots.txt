@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://buyweb3.store/sitemap.xml
