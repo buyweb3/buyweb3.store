@@ -7,6 +7,7 @@ on:
       - index.html
       - site_upgrade.js
       - postprocess.js
+      - fixups.js
 jobs:
   build:
     if: github.actor != 'github-actions[bot]'
@@ -20,6 +21,7 @@ jobs:
           node-version: '20'
       - run: node site_upgrade.js
       - run: node postprocess.js
+      - run: node fixups.js
       - name: Publish generated pages
         run: |
           git config user.name "github-actions[bot]"
