@@ -1,0 +1,29 @@
+name: Build marketplace pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - site_upgrade.js
+      - postprocess.js
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node site_upgrade.js
+      - run: node postprocess.js
+      - name: Publish generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html assets domain use-cases sitemap.xml robots.txt
+          git diff --cached --quiet || git commit -m "Generate individual domain pages"
+          git push
