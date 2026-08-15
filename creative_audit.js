@@ -17,6 +17,7 @@ const IMG={
  fashion:'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=2200&q=82',
  beauty:'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2200&q=82',
  pawn:'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=2200&q=82',
+ swisswatch:'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=2200&q=88',
  pets:'https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=2200&q=82',
  charity:'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=2200&q=82',
  architecture:'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=82',
@@ -26,6 +27,7 @@ const IMG={
  dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2200&q=82'
 };
 function pick(n){n=n.toLowerCase();
+ if(/swisstime/.test(n))return ['swisswatch','A premium identity for Swiss watches and horology'];
  if(/casino|roulette|poker|blackjack|jackpot|odds|bet|vegas|gambler|lucky/.test(n))return ['vegas','A high-energy gaming and entertainment identity'];
  if(/dubai|abu.?dhabi|uae|emirate/.test(n))return ['dubai','A premium identity for the UAE market'];
  if(/ireland|irish|dublin|kerry|cork|galway|tralee|burren|wildatlantic/.test(n))return ['ireland','A distinctive Irish digital identity'];
@@ -51,6 +53,7 @@ function pick(n){n=n.toLowerCase();
  if(/crypto|bitcoin|token|coin|blockchain|nft|wallet/.test(n))return ['crypto','A modern Web3 and digital-asset identity'];
  return null;}
 function copyFor(n){n=n.toLowerCase();
+ if(/swisstime/.test(n))return ['Launch a premium marketplace for Swiss watches, certified pre-owned pieces, collectors and specialist dealers.','Build a luxury retail or e-commerce brand for Swiss timepieces, straps, accessories, servicing and authentication.','Create a watch-news, reviews and collector community covering launches, heritage, auctions and horology.'];
  if(/casino|roulette|poker|blackjack|jackpot|odds|bet|vegas|gambler|lucky/.test(n))return ['Launch a live gaming destination covering casino games, tournaments, entertainment and community features.','Build a premium VIP gaming brand around rewards, loyalty, events and high-value player experiences.','Create an entertainment hub combining gaming content, reviews, promotions and destination-style experiences.'];
  if(/rent|rental|property|house|housing|home|estate|realt|landlord|tenant|apartment|villa|mortgage/.test(n))return ['Show available homes, apartments and rental properties with clear information for prospective tenants.','Build a property-search or letting platform connecting tenants with landlords, agents and suitable homes.','Create a memorable digital identity for rentals, property management, relocation services or real-estate listings.'];
  if(/hotel|room|stay|resort|bnb/.test(n))return ['Build a direct-booking site for hotels, rooms, resorts or short-stay accommodation.','Create a hospitality comparison or discovery platform for travellers choosing where to stay.','Use the name for a premium accommodation brand, concierge service or destination booking portal.'];
@@ -62,7 +65,7 @@ let themed=0,fallback=0,updatedCopy=0;
 for(const name of fs.readdirSync(dir)){
  const p=path.join(dir,name,'index.html'); if(!fs.existsSync(p))continue;
  let s=fs.readFileSync(p,'utf8'); const hit=pick(name);
- if(hit){const [key,tag]=hit,img=IMG[key];s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('${img}')`); if(s.includes('class="tagline"'))s=s.replace(/<div class="tagline">[^<]*<\/div>/,`<div class="tagline">${tag}</div>`);themed++;} else fallback++;
+ if(hit){const [key,tag]=hit,img=IMG[key];s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('${img}')`); if(key==='swisswatch')s=s.replace('<main class="hero"','<main class="hero swisswatch"'); if(s.includes('class="tagline"'))s=s.replace(/<div class="tagline">[^<]*<\/div>/,`<div class="tagline">${tag}</div>`);themed++;} else fallback++;
  const ideas=copyFor(name); if(ideas){let i=0;s=s.replace(/<div class="box"><strong>([^<]+)<\/strong><br>[^<]*<\/div>/g,(m,h)=>`<div class="box"><strong>${h}</strong><br>${ideas[Math.min(i++,2)]}</div>`);updatedCopy++;}
  if(hit&&hit[0]==='vegas'&&!s.includes('Photo: Matt Kieffer'))s=s.replace('</footer>',' · <span style="opacity:.55;font-size:11px">Las Vegas photo: Matt Kieffer / CC BY-SA 2.0</span></footer>');
  fs.writeFileSync(p,s);
