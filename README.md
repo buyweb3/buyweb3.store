@@ -1,3 +1,2 @@
-# BuyWeb3.store
-
-Premium Web3 domain marketplace.
+# buyweb3.store
+Official website for Buy Web3
