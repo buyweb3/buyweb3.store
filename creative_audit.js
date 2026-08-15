@@ -2,32 +2,18 @@ const fs=require('fs'),path=require('path');
 const root=__dirname,dir=path.join(root,'domain');
 const IMG={
  vegas:'https://commons.wikimedia.org/wiki/Special:Redirect/file/Las%20Vegas%20strip%20at%20night,%20Nevada.jpg',
- property:'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=2200&q=82',
- travel:'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2200&q=82',
- hotel:'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2200&q=82',
- car:'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2200&q=82',
- food:'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=2200&q=82',
- pizza:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=2200&q=82',
- phones:'https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=2200&q=82',
- finance:'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=2200&q=82',
- legal:'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2200&q=82',
- energy:'https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2200&q=82',
- music:'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=2200&q=82',
- art:'https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=2200&q=82',
- fashion:'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=2200&q=82',
- beauty:'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2200&q=82',
- pawn:'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=2200&q=82',
- swisswatch:'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=2200&q=88',
- pets:'https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=2200&q=82',
- charity:'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=2200&q=82',
- architecture:'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=82',
- news:'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=2200&q=82',
- crypto:'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2200&q=82',
- ireland:'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=2200&q=82',
- dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2200&q=82'
+ property:'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=2200&q=82',travel:'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=2200&q=82',hotel:'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2200&q=82',car:'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2200&q=82',food:'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=2200&q=82',pizza:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=2200&q=82',phones:'https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=2200&q=82',finance:'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=2200&q=82',legal:'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=2200&q=82',energy:'https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2200&q=82',music:'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=2200&q=82',art:'https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=2200&q=82',fashion:'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=2200&q=82',beauty:'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2200&q=82',pawn:'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=2200&q=82',swisswatch:'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=2200&q=88',pets:'https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=2200&q=82',charity:'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=2200&q=82',architecture:'https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=82',news:'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=2200&q=82',crypto:'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2200&q=82',ireland:'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=2200&q=82',dubai:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2200&q=82',
+ beatles:'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=2200&q=82',
+ freddie:'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=2200&q=84',
+ adele:'https://images.unsplash.com/photo-1524650359799-842906ca1c06?auto=format&fit=crop&w=2200&q=84',
+ elvis:'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=2200&q=84'
 };
 function pick(n){n=n.toLowerCase();
  if(/swisstime/.test(n))return ['swisswatch','A premium identity for Swiss watches and horology'];
+ if(/elvis|memphian|tcbinaflash/.test(n))return ['elvis','A distinctive identity for Elvis fans and tribute performers'];
+ if(/beatles|fabfour|pennylane|strawberryfields|lovemedo|pleasepleaseme/.test(n))return ['beatles','A classic British-pop inspired fan identity'];
+ if(/freddie|queen|liveaid|radiogaga|breakfree|onevision/.test(n))return ['freddie','A stadium-scale identity for Freddie and Queen fan projects'];
+ if(/adele/.test(n))return ['adele','An elegant music-fan identity with premium stage presence'];
  if(/casino|roulette|poker|blackjack|jackpot|odds|bet|vegas|gambler|lucky/.test(n))return ['vegas','A high-energy gaming and entertainment identity'];
  if(/dubai|abu.?dhabi|uae|emirate/.test(n))return ['dubai','A premium identity for the UAE market'];
  if(/ireland|irish|dublin|kerry|cork|galway|tralee|burren|wildatlantic/.test(n))return ['ireland','A distinctive Irish digital identity'];
@@ -54,6 +40,11 @@ function pick(n){n=n.toLowerCase();
  return null;}
 function copyFor(n){n=n.toLowerCase();
  if(/swisstime/.test(n))return ['Take a traditional Swiss-watch dealership online and reduce showroom overheads, creating room for sharper pricing while maintaining a premium presentation.','Build a luxury watch marketplace where authorised dealers, independent specialists and collectors can list, buy and sell premium Swiss watches internationally.','Create an online-first Swiss watch outlet for selected inventory, previous-season pieces and competitive prices aimed at customers searching globally for luxury timepieces.'];
+ if(/elvis.*tribute|tribute.*elvis/.test(n))return ["Be the only Elvis tribute artist in the world using this memorable Web3 address for bookings, payments and your professional digital identity.","You have invested in the costumes, sound and stage equipment; now give promoters and clients a simple Web3 address for deposits and digital payments.","Put the address on your cards or table signs so fans can send tips after a favourite song — a playful 'Money Honey' moment for a hunka hunka burnin' love audience."];
+ if(/elvis|memphian|tcbinaflash/.test(n))return ['Build a clearly unofficial Elvis fan hub for memories, stories, collections, discussion and fan-created editorial content.','Create a destination for memorabilia showcases, event discussion, tribute news and community activity without implying official affiliation.','Use the memorable Web3 identity for a personal fan project, collector community or tribute archive celebrating the music and cultural legacy.'];
+ if(/beatles|fabfour|pennylane|strawberryfields|lovemedo|pleasepleaseme/.test(n))return ['Create an unofficial Beatles fan destination for stories, song discussion, memories and cultural history.','Build a collector and memorabilia community around records, books, artwork, events and fan-created editorial content.','Use the Web3 identity for a tribute project, podcast, newsletter or fan club that celebrates the music without implying official affiliation.'];
+ if(/freddie|queen|liveaid|radiogaga|breakfree|onevision/.test(n))return ['Create an unofficial Freddie Mercury or Queen fan destination for performance history, memories, discussion and fan-created content.','Build a community around concerts, collections, tribute events, memorabilia and the enduring stadium-scale appeal of the music.','Use the memorable Web3 name for a tribute project, podcast, archive or fan club while clearly remaining independent and unofficial.'];
+ if(/adele/.test(n))return ['Create an elegant unofficial Adele fan destination for music discussion, performances, memories and fan-created editorial content.','Build a community around albums, live shows, collecting, reviews and fan appreciation with a premium visual identity.','Use the memorable Web3 address for a tribute project, podcast, newsletter or fan archive while clearly avoiding any claim of official affiliation.'];
  if(/casino|roulette|poker|blackjack|jackpot|odds|bet|vegas|gambler|lucky/.test(n))return ['Launch a live gaming destination covering casino games, tournaments, entertainment and community features.','Build a premium VIP gaming brand around rewards, loyalty, events and high-value player experiences.','Create an entertainment hub combining gaming content, reviews, promotions and destination-style experiences.'];
  if(/rent|rental|property|house|housing|home|estate|realt|landlord|tenant|apartment|villa|mortgage/.test(n))return ['Show available homes, apartments and rental properties with clear information for prospective tenants.','Build a property-search or letting platform connecting tenants with landlords, agents and suitable homes.','Create a memorable digital identity for rentals, property management, relocation services or real-estate listings.'];
  if(/hotel|room|stay|resort|bnb/.test(n))return ['Build a direct-booking site for hotels, rooms, resorts or short-stay accommodation.','Create a hospitality comparison or discovery platform for travellers choosing where to stay.','Use the name for a premium accommodation brand, concierge service or destination booking portal.'];
