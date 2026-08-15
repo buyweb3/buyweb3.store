@@ -1,3 +1,4 @@
+// BuyWeb3 generated-page postprocessor
 const fs=require('fs'),path=require('path');
 const root=__dirname,dir=path.join(root,'domain');
 for(const name of fs.readdirSync(dir)){
@@ -12,7 +13,6 @@ for(const name of fs.readdirSync(dir)){
 }
 let home=fs.readFileSync(path.join(root,'index.html'),'utf8');
 if(!home.includes('/assets/i18n.js')) home=home.replace('</head>','<script defer src="/assets/i18n.js"></script></head>');
-// Ensure every marketplace card has a direct individual sales-page link.
 home=home.replace(/<button class="view" data-domain="\$\{d\.domain\}">View Details<\/button>/g,'<a class="view" href="/domain/${encodeURIComponent(d.domain)}/">View Details</a>');
 fs.writeFileSync(path.join(root,'index.html'),home);
 console.log('Applied premium destination styling and direct listing links.');
