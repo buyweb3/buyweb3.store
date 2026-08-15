@@ -8,6 +8,7 @@ on:
       - site_upgrade.js
       - postprocess.js
       - fixups.js
+      - creative_audit.js
 jobs:
   build:
     if: github.actor != 'github-actions[bot]'
@@ -22,6 +23,7 @@ jobs:
       - run: node site_upgrade.js
       - run: node postprocess.js
       - run: node fixups.js
+      - run: node creative_audit.js
       - name: Publish generated pages
         run: |
           git config user.name "github-actions[bot]"
