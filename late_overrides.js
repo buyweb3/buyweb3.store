@@ -18,4 +18,23 @@ for(const name of fs.readdirSync(dir)){
   s=s.replace(/<div class="box"><strong>([^<]+)<\/strong><br>[^<]*<\/div>/g,(m,h)=>`<div class="box"><strong>${h}</strong><br>${ideas[Math.min(i++,2)]}</div>`);
   fs.writeFileSync(p,s);
 }
-console.log('Protected vegan overrides applied.');
+
+// Protected asking-price corrections. Applied after page generation so later broad build rules cannot undo them.
+const prices={'investers.zil':99,'sellyourdomain.x':4000,'thepawnshop.x':10000};
+const indexPath=path.join(__dirname,'index.html');
+let index=fs.readFileSync(indexPath,'utf8');
+for(const [domain,price] of Object.entries(prices)){
+  const escaped=domain.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  index=index.replace(new RegExp(`("domain":"${escaped}"[^}]*?"price":)\\d+`),`$1${price}`);
+  const p=path.join(dir,domain,'index.html');
+  if(fs.existsSync(p)){
+    let s=fs.readFileSync(p,'utf8');
+    const formatted='$'+price.toLocaleString('en-US');
+    s=s.replace(/(<div class="price">)\$[\d,]+(<\/div>)/,`$1${formatted}$2`);
+    s=s.replace(/(listed price of )\$[\d,]+/g,`$1${formatted}`);
+    s=s.replace(/(asking price is )\$[\d,]+/g,`$1${formatted}`);
+    fs.writeFileSync(p,s);
+  }
+}
+fs.writeFileSync(indexPath,index);
+console.log('Protected vegan and price overrides applied.');
