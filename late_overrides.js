@@ -20,7 +20,7 @@ for(const name of fs.readdirSync(dir)){
 }
 
 // Protected asking-price corrections. Applied after page generation so later broad build rules cannot undo them.
-const prices={'investers.zil':99,'sellyourdomain.x':4000,'thepawnshop.x':10000};
+const prices={'investers.zil':99,'sellyourdomain.x':4000,'thepawnshop.x':10000,'jazzman.wallet':499};
 const indexPath=path.join(__dirname,'index.html');
 let index=fs.readFileSync(indexPath,'utf8');
 for(const [domain,price] of Object.entries(prices)){
@@ -37,4 +37,22 @@ for(const [domain,price] of Object.entries(prices)){
   }
 }
 fs.writeFileSync(indexPath,index);
-console.log('Protected vegan and price overrides applied.');
+
+// Jazzman.wallet: performer-first visual and copy, protected from generic wallet imagery.
+{
+  const name='jazzman.wallet',p=path.join(dir,name,'index.html');
+  if(fs.existsSync(p)){
+    let s=fs.readFileSync(p,'utf8');
+    const img='https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&w=2200&q=88';
+    s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('${img}')`);
+    if(s.includes('class="tagline"'))s=s.replace(/<div class="tagline">[^<]*<\/div>/,'<div class="tagline">A memorable Web3 wallet for the working jazz musician</div>');
+    const ideas=[
+      'Pay and get paid with Jazzman.wallet — a memorable digital identity for a jazz musician, saxophonist or working band member.',
+      'Get tips directly from your audience while you are performing. Leave a few cards on the tables and invite customers to send a digital tip to Jazzman.wallet.',
+      'Put Jazzman.wallet on your business cards, posters and social profiles for bookings, deposits and digital payments, while retaining a transferable Web3 asset with potential resale value.'
+    ];
+    let i=0;s=s.replace(/<div class="box"><strong>([^<]+)<\/strong><br>[^<]*<\/div>/g,(m,h)=>`<div class="box"><strong>${h}</strong><br>${ideas[Math.min(i++,2)]}</div>`);
+    fs.writeFileSync(p,s);
+  }
+}
+console.log('Protected vegan, price and Jazzman overrides applied.');
