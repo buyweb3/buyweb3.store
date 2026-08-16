@@ -20,4 +20,13 @@ const godardNames=['godard.crypto','godard.zil','godardart.crypto','ohmygodart.c
 for(const name of godardNames){const wallet=name.endsWith('.wallet');override(name,godardImg,'A memorable Web3 identity for an art fan',[`Show your love for your favourite artist with ${name} — a distinctive digital identity for an art enthusiast, collector or fan.`,`Build an independent fan community, art discussion hub or collector-focused destination around a memorable Web3 name.${wallet?' Use the wallet address to pay or get paid digitally and share it more easily than a long crypto string.':''}`,`Own and develop ${name} as your digital identity while retaining a transferable Web3 asset with potential resale value.`]);}
 // Money2Burn.888 can lean into the Macau/luck/wealth visual family rather than the art-fan copy.
 override('money2burn.888','https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=2200&q=88','A bold .888 identity built around money, luck and high-stakes energy',['Create a memorable entertainment or lifestyle brand around the instantly recognisable Money2Burn name.','Use the lucky 888 extension with a night-time Macau-inspired wealth and gaming atmosphere for an Asia-facing digital identity.','Own and develop Money2Burn.888 as a distinctive Web3 name while retaining a transferable digital asset with potential resale value.']);
+function setHeads(name,heads){const p=path.join(dir,name,'index.html');if(!fs.existsSync(p))return;let s=fs.readFileSync(p,'utf8'),i=0;s=s.replace(/<div class="box"><strong>[^<]+<\/strong><br>/g,m=>`<div class="box"><strong>${heads[Math.min(i++,heads.length-1)]}</strong><br>`);fs.writeFileSync(p,s);}
+setHeads('bookahotel.x',['Hotel booking platform','Compare rates & availability','Build a global booking brand']);
+setHeads('grandhotel.x',['Curated grand hotels','Premium stays at better value','A global luxury-travel brand']);
+setHeads('bargainholidays.x',['Worldwide holiday deals','Last-minute availability','Build a travel marketplace']);
+setHeads('bookingsonline.wallet',['Booking payment identity','One wallet across booking sectors','Deposits & partner settlements']);
+setHeads('buyabook.crypto',['Online bookstore','Author & publisher marketplace','Specialist book brand']);
+setHeads('thecheckout.crypto',['Crypto checkout identity','Merchant payment gateway','B2B payments brand']);
+setHeads('jazzman.wallet',['Musician payment identity','Digital tips at gigs','Bookings, deposits & payments']);
+for(const name of ['thepawnshop.bitcoin','thepawnshop.x','thepawnshop.wallet'])setHeads(name,['Online pawn marketplace','Buy, sell or lend against value','A transferable Web3 brand']);
 console.log('Protected bespoke overrides applied.');
