@@ -12,8 +12,6 @@ function apply(name,{img,tag,ideas}={}){
 }
 function family(re,opts){for(const name of fs.readdirSync(dir))if(re.test(name))apply(name,typeof opts==='function'?opts(name):opts)}
 
-// Repair every protected asking price after generation. This deliberately replaces all price references on that one listing page,
-// including visible price, metadata and URL-encoded WhatsApp text, avoiding JavaScript $-replacement backreference bugs.
 const prices={'investers.zil':99,'sellyourdomain.x':4000,'thepawnshop.x':10000,'thepawnshop.bitcoin':1000,'thepawnshop.wallet':2500,'jazzman.wallet':499,'bargainholidays.x':12500,'bookingsonline.wallet':1000,'buyausedcar.crypto':999,'thecheckout.crypto':3000,'choosevegan.wallet':700,'bookataxi.crypto':800};
 const indexPath=path.join(__dirname,'index.html');
 let index=fs.readFileSync(indexPath,'utf8');
@@ -22,7 +20,7 @@ for(const [name,price] of Object.entries(prices)){
   index=index.replace(new RegExp(`("domain":"${escaped}"[^}]*?"price":)\\d+`),(_,a)=>a+price);
   const p=pagePath(name); if(!fs.existsSync(p)) continue;
   let s=fs.readFileSync(p,'utf8'); const shown='$'+price.toLocaleString('en-US'); const encoded=encodeURIComponent(shown);
-  s=s.replace(/\$[\d,]+/g,shown).replace(/%24[\d%2C]+/gi,encoded);
+  s=s.replace(/\$[\d,]+/g,()=>shown).replace(/%24[\d%2C]+/gi,()=>encoded);
   fs.writeFileSync(p,s);
 }
 fs.writeFileSync(indexPath,index);
@@ -49,4 +47,4 @@ apply('mrroulette.crypto',{tag:'A memorable crypto identity for roulette and gam
 const pawnImg='https://images.unsplash.com/photo-1771471790940-74ced68ab3f4?auto=format&fit=crop&w=2200&q=88';
 family(/^thepawnshop\./i,name=>({img:pawnImg,tag:name.endsWith('.wallet')?'The ultimate Web3 wallet identity for an online pawn shop':name.endsWith('.bitcoin')?'The online pawn shop for the Bitcoin era':'The ultimate online pawn shop address',ideas:['Build an online pawn shop filled with jewellery, watches, collectibles, electronics, musical instruments, antiques and other valuable goods.',name.endsWith('.wallet')?'Pay and get paid digitally with a memorable wallet identity for a pawn business.':'Take the traditional pawn-shop model online for buying, selling or lending against valuable items.','Own the memorable ThePawnShop identity and retain the Web3 domain as a transferable digital asset with potential resale value.']}));
 
-console.log('Session overrides and price repair applied.');
+console.log('Session overrides and price repair applied — corrected rebuild trigger.');
