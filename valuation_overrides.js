@@ -32,6 +32,9 @@ for(const [domain,price] of Object.entries(prices)){
   s=s.replace(/(<div class="price">)\$[\d,]+(<\/div>)/,(_,a,b)=>a+shown+b)
      .replace(/(listed price of )\$[\d,]+/g,(_,a)=>a+shown)
      .replace(/(asking price is )\$[\d,]+/g,(_,a)=>a+shown)
+     .replace(/(<meta name="description" content="[^"]*? at )\$[\d,]+([^"]*">)/,(_,a,b)=>a+shown+b)
+     .replace(/(<meta property="og:description" content="[^"]*? at )\$[\d,]+([^"]*">)/,(_,a,b)=>a+shown+b)
+     .replace(/(<meta name="twitter:description" content="[^"]*? at )\$[\d,]+([^"]*">)/,(_,a,b)=>a+shown+b)
      .replace(/%24[\d%2C]+/gi,()=>encoded);
   fs.writeFileSync(p,s);
 }
