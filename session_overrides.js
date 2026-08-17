@@ -23,7 +23,6 @@ for(const [name,price] of Object.entries(prices)){
   s=s.replace(/\$[\d,]+/g,()=>shown).replace(/%24[\d%2C]+/gi,()=>encoded);
   fs.writeFileSync(p,s);
 }
-fs.writeFileSync(indexPath,index);
 
 const irishCoast='https://images.unsplash.com/photo-1773587563667-1aacf904769c?auto=format&fit=crop&w=2200&q=88';
 family(/^wildatlanticway\./i,name=>({img:irishCoast,tag:'A distinctive digital identity for Ireland’s Wild Atlantic Way',ideas:[`Show your love for Ireland and the Wild Atlantic Way with ${name} — a memorable Web3 identity celebrating one of the world’s great coastal routes.`,name.endsWith('.wallet')?'Pay or get paid with a memorable Irish wallet address that is easy to share on cards, profiles and tourism material.':'Build a tourism, travel, photography or local-business destination around the Wild Atlantic Way.',`Own and develop ${name} as a transferable Web3 digital asset with potential resale value.`]}));
@@ -51,4 +50,14 @@ const hotelImg='https://images.unsplash.com/photo-1564501049412-61c2a3083791?aut
 apply('grandhotel.x',{img:hotelImg,tag:'Bring the grand hotels of the world to one memorable address',ideas:['This is not merely a domain for a property called The Grand Hotel. GrandHotel.x is an opportunity to build a platform around the fact that discerning travellers want more — exceptional hotels, memorable stays and better value.','Create a destination where travellers discover some of the world’s grand hotels at bargain rates, using off-season availability, special offers, late deals and selected luxury packages to make premium stays more accessible.','Bring “the grand hotels” of the world directly to the consumer’s browser — a memorable global brand for luxury hotel discovery, special-rate bookings, curated stays and high-end travel offers.']});
 apply('bookahotel.x',{img:hotelImg,tag:'A direct, memorable address for booking a hotel',ideas:['BookAHotel.x says exactly what the customer wants to do — find and book a hotel — making it a natural name for a hotel search and reservation platform.','Build a marketplace comparing hotels, room rates, special offers and late availability, helping travellers find the right stay at the right price.','Develop BookAHotel.x into a memorable global booking brand for hotels, resorts and accommodation, with revenue opportunities from reservations, referrals and hospitality partnerships.']});
 
-console.log('Session overrides, price repair and hotel imagery fixes applied.');
+// Keep all Adele fan-use listings visually coherent with a sharp live-music image.
+const adeleConcertImg='https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=2200&q=90';
+family(/^(adelefan|adelelive)\./i,name=>({img:adeleConcertImg,tag:'A clearly unofficial fan identity for music, tribute and community use'}));
+
+// About Mark is intentionally injected at build time so generated catalogue changes cannot remove it.
+if(!index.includes('/assets/about-mark.js')){
+  index=index.replace('</body>','<script defer src="/assets/about-mark.js"></script>\n</body>');
+  fs.writeFileSync(indexPath,index);
+}
+
+console.log('Session overrides, price repair, Adele imagery and About Mark integration applied.');
