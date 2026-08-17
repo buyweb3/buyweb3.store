@@ -18,14 +18,8 @@ const P={
 'bargainholidays.x':['https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2200&q=90','A clear value-led travel brand for deals, packages and late availability','<strong>The promise is obvious:</strong> BargainHolidays.x can support package deals, last-minute offers, comparison, memberships and recurring seasonal travel campaigns.',[['Holiday deals','Curate discounted packages, flights, hotels and late availability.'],['Comparison & affiliate','Aggregate value-focused travel offers and partner inventory.'],['Travel deal club','Build recurring memberships, alerts and exclusive-value campaigns.']]]
 };
 for(const [name,[img,t,c,b]] of Object.entries(P)) edit(name,s=>uses(copy(tag(hero(s,img),t),c),'Built for a real commercial proposition',b));
-
-// Elvis family: the global domain.css applies a dark gradient directly in background-image.
-// Override that property itself so the owner-provided musical-gates artwork is actually visible.
 const elvis=['elvisfan.wallet','elvistheking.wallet','elvistributeartist.wallet','elvistributeartist.x','elvistributeartist.crypto','iloveelvis.wallet','elvislives.wallet','elvispresleyrip.wallet','worldsgreatestelvis.x','elvisworld.crypto','elvisworld.zil','tcbinaflash.wallet'];
-for(const name of elvis)edit(name,s=>{
-  s=hero(s,'/assets/elvis-gates.svg');
-  s=s.replace(/<style id="elvis-art-fix">[\s\S]*?<\/style>/,'');
-  s=s.replace('</head>',`<style id="elvis-art-fix">.hero{background-image:linear-gradient(90deg,rgba(3,10,19,.92) 0%,rgba(5,17,30,.60) 40%,rgba(5,17,30,.16) 68%,rgba(5,17,30,.02) 100%),var(--hero)!important;background-size:cover!important;background-position:center right!important;background-repeat:no-repeat!important}.panel{backdrop-filter:blur(7px)!important}@media(max-width:760px){.hero{background-image:linear-gradient(180deg,rgba(3,10,19,.38),rgba(5,17,30,.82)),var(--hero)!important;background-position:center!important}}</style></head>`);
-  return s;
-});
-console.log('Protected premium presentation polish and visible owner-provided Elvis gates artwork applied.');
+for(const name of elvis)edit(name,s=>{s=hero(s,'/assets/elvis-gates.svg');if(!s.includes('id="elvis-art-fix"'))s=s.replace('</head>',`<style id="elvis-art-fix">.hero{background-image:linear-gradient(90deg,rgba(3,10,19,.88),rgba(5,17,30,.18)),var(--hero)!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}@media(max-width:760px){.hero{background-image:linear-gradient(180deg,rgba(3,10,19,.45),rgba(5,17,30,.72)),var(--hero)!important}}</style></head>`);return s});
+const ap=path.join(root,'assets','about-mark.js');
+if(fs.existsSync(ap)){let s=fs.readFileSync(ap,'utf8');s=s.replace(/src="[^"]+" alt="Mark Leen at the airport"/,`src="/assets/mark-airport-square.jpg?v=2" alt="Mark Leen at the airport"`);fs.writeFileSync(ap,s)}
+console.log('Final portrait asset and Elvis visibility fixes applied.');
