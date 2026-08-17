@@ -16,6 +16,7 @@ on:
       - crypto_valuation.js
       - x_valuation.js
       - presentation_polish.js
+      - final_portfolio_overrides.js
       - premium_sync.js
 jobs:
   build:
@@ -39,6 +40,7 @@ jobs:
       - run: node crypto_valuation.js
       - run: node x_valuation.js
       - run: node presentation_polish.js
+      - run: node final_portfolio_overrides.js
       - run: node premium_sync.js
       - name: Publish generated pages
         run: |
