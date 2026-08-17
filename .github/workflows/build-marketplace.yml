@@ -11,6 +11,7 @@ on:
       - creative_audit.js
       - late_overrides.js
       - session_overrides.js
+      - background_overrides.js
       - valuation_overrides.js
 jobs:
   build:
@@ -29,6 +30,7 @@ jobs:
       - run: node creative_audit.js
       - run: node session_overrides.js
       - run: node late_overrides.js
+      - run: node background_overrides.js
       - run: node valuation_overrides.js
       - name: Publish generated pages
         run: |
