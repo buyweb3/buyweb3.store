@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T11:15:44.497Z",
+  "generated": "2026-08-17T11:52:40.215Z",
   "count": 109,
   "method": "patient end-user seller pricing: real-world commercial intent, customer-acquisition value, memorability, extension fit, conservative fan/IP treatment",
   "valuations": [
@@ -747,14 +747,14 @@
     },
     {
       "domain": "elvistributeartist.crypto",
-      "old_price": 1500,
+      "old_price": 3500,
       "new_price": 1500,
       "category": "",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "elvisworld.crypto",
-      "old_price": 2000,
+      "old_price": 5000,
       "new_price": 2000,
       "category": "",
       "basis": "patient end-user scoring"
