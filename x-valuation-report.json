@@ -1,0 +1,868 @@
+{
+  "generated": "2026-08-17T07:33:09.347Z",
+  "count": 123,
+  "method": "patient end-user .x pricing including commercial intent, extension-as-X wordplay, recurring seasonal utility, memorability and conservative fan/IP treatment",
+  "valuations": [
+    {
+      "domain": "bookaflight.x",
+      "old_price": 12500,
+      "new_price": 17500,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "bookahotel.x",
+      "old_price": 12500,
+      "new_price": 17500,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "grandhotel.x",
+      "old_price": 15000,
+      "new_price": 20000,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "investdubai.x",
+      "old_price": 7500,
+      "new_price": 15000,
+      "category": "Finance",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "energysaver.x",
+      "old_price": 8500,
+      "new_price": 12500,
+      "category": "Energy",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "assetportfolio.x",
+      "old_price": 6500,
+      "new_price": 10000,
+      "category": "Finance",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "injuryclaims.x",
+      "old_price": 9500,
+      "new_price": 15000,
+      "category": "Legal",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "onlinecrypto.x",
+      "old_price": 7500,
+      "new_price": 12500,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "phonesdirect.x",
+      "old_price": 5000,
+      "new_price": 10000,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "repairmycredit.x",
+      "old_price": 5000,
+      "new_price": 10000,
+      "category": "Finance",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "bookingonline.x",
+      "old_price": 6500,
+      "new_price": 10000,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "carpoint.x",
+      "old_price": 6000,
+      "new_price": 10000,
+      "category": "Auto",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "pizzamenu.x",
+      "old_price": 7500,
+      "new_price": 12500,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "sealedbid.x",
+      "old_price": 1995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "swisstime.x",
+      "old_price": 7500,
+      "new_price": 12500,
+      "category": "General/Brandable",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "casinolive.x",
+      "old_price": 7500,
+      "new_price": 12500,
+      "category": "Gaming",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "sellfree.x",
+      "old_price": 4000,
+      "new_price": 20000,
+      "category": "Commerce",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "dubaitycoon.x",
+      "old_price": 7000,
+      "new_price": 10000,
+      "category": "Travel",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "onlinefoodmenu.x",
+      "old_price": 6500,
+      "new_price": 10000,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "vegasgames.x",
+      "old_price": 6500,
+      "new_price": 10000,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "vegasnights.x",
+      "old_price": 4995,
+      "new_price": 12500,
+      "category": "Travel",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "wildatlanticway.x",
+      "old_price": 2500,
+      "new_price": 7500,
+      "category": "General/Brandable",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "hotelsforless.x",
+      "old_price": 6500,
+      "new_price": 10000,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "indianmenu.x",
+      "old_price": 4500,
+      "new_price": 7500,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "money2burn.x",
+      "old_price": 1995,
+      "new_price": 8000,
+      "category": "Finance",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "sellyourdomain.x",
+      "old_price": 7500,
+      "new_price": 12500,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "thepawnshop.x",
+      "old_price": 12500,
+      "new_price": 17500,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "injury-lawyer.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "Legal",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "bargainholidays.x",
+      "old_price": 9500,
+      "new_price": 15000,
+      "category": "Travel",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "casinoresort.x",
+      "old_price": 7500,
+      "new_price": 12500,
+      "category": "Gaming",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "fabulouslasvegas.x",
+      "old_price": 5000,
+      "new_price": 12500,
+      "category": "Travel",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "generatewealth.x",
+      "old_price": 5000,
+      "new_price": 10000,
+      "category": "Finance",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "marxman.x",
+      "old_price": 2500,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "nuplace.x",
+      "old_price": 1395,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "partyse.x",
+      "old_price": 4995,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "rouletteexchange.x",
+      "old_price": 4500,
+      "new_price": 4500,
+      "category": "Gaming",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "countykerry.x",
+      "old_price": 1500,
+      "new_price": 5000,
+      "category": "Geo",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "guitarman.x",
+      "old_price": 2500,
+      "new_price": 7500,
+      "category": "Music",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "imalondoner.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "lovechina.x",
+      "old_price": 2500,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "lovejapan.x",
+      "old_price": 2500,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "musicartist.x",
+      "old_price": 1995,
+      "new_price": 10000,
+      "category": "Music",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "cosmeticsurgeon.x",
+      "old_price": 6000,
+      "new_price": 10000,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "fastfoodmenu.x",
+      "old_price": 6500,
+      "new_price": 10000,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "houseoffashion.x",
+      "old_price": 5000,
+      "new_price": 10000,
+      "category": "Commerce",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "lowcostperfume.x",
+      "old_price": 6700,
+      "new_price": 8000,
+      "category": "Commerce",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "luckynumber8.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "Gaming",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "al-arab.x",
+      "old_price": 2500,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "compensationlawyer.x",
+      "old_price": 2500,
+      "new_price": 3000,
+      "category": "Legal",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "ireland32.x",
+      "old_price": 650,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "adultarcade.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "ayrtonsenna.x",
+      "old_price": 1395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "bigjukebo.x",
+      "old_price": 1000,
+      "new_price": 8000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "clockwor.x",
+      "old_price": 1000,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "donedeals.x",
+      "old_price": 7000,
+      "new_price": 7000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "duranduran.x",
+      "old_price": 650,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "eatmeats.x",
+      "old_price": 999,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "fineartwor.x",
+      "old_price": 800,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "finestdeals.x",
+      "old_price": 1000,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "friendsbook.x",
+      "old_price": 3500,
+      "new_price": 10000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "georgefloyd.x",
+      "old_price": 700,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "getresults.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "jameslast.x",
+      "old_price": 1995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "jesusislord.x",
+      "old_price": 995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "ladyluck.x",
+      "old_price": 2200,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "lovescreen.x",
+      "old_price": 6700,
+      "new_price": 7000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "markleen.x",
+      "old_price": 395,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "mostbanned.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "mytokens.x",
+      "old_price": 995,
+      "new_price": 5000,
+      "category": "Identity",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "nuplacecafe.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "parkavenue.x",
+      "old_price": 995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "payatthebo.x",
+      "old_price": 395,
+      "new_price": 8000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "pennysto.x",
+      "old_price": 395,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "poshpawn.x",
+      "old_price": 3000,
+      "new_price": 10000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "redsoles.x",
+      "old_price": 3400,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "rosearena.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "sunnybeach.x",
+      "old_price": 995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "takemeout.x",
+      "old_price": 7000,
+      "new_price": 7000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "teaseplease.x",
+      "old_price": 6000,
+      "new_price": 6000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "thanksalot.x",
+      "old_price": 1500,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "thememphian.x",
+      "old_price": 395,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "thewatchman.x",
+      "old_price": 395,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "unseizeable.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "yourlover.x",
+      "old_price": 4000,
+      "new_price": 5000,
+      "category": "Identity",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "greatbritish.x",
+      "old_price": 395,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "roseoftralee.x",
+      "old_price": 900,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "theroseoftralee.x",
+      "old_price": 900,
+      "new_price": 3000,
+      "category": "Geo",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "sexetera.x",
+      "old_price": 3500,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "sexybeast.x",
+      "old_price": 4000,
+      "new_price": 4000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "anumber1.x",
+      "old_price": 1000,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "snooker147.x",
+      "old_price": 741,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "billboarders.x",
+      "old_price": 995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "boughtthedip.x",
+      "old_price": 1000,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "doggiewoggies.x",
+      "old_price": 95,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "drkingandmalcolm.x",
+      "old_price": 500,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "galtymoreclub.x",
+      "old_price": 5000,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "iamnotaterrorist.x",
+      "old_price": 95,
+      "new_price": 3000,
+      "category": "Identity",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "madeinheaven.x",
+      "old_price": 995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "merrychristmas.x",
+      "old_price": 5000,
+      "new_price": 25000,
+      "category": "General/Brandable",
+      "basis": "hand-curated end-user"
+    },
+    {
+      "domain": "perfectmachine.x",
+      "old_price": 999,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "privatelyyours.x",
+      "old_price": 3000,
+      "new_price": 3000,
+      "category": "Identity",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "remembermalcolm.x",
+      "old_price": 700,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "sandboxworld.x",
+      "old_price": 800,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "secondhandstuff.x",
+      "old_price": 2500,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "signatureroom.x",
+      "old_price": 2000,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "thanksamillion.x",
+      "old_price": 500,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "thankyouverymuch.x",
+      "old_price": 999,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "3darchitecture.x",
+      "old_price": 3000,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "authenticmemorabilia.x",
+      "old_price": 2400,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "bitcoinsuperstore.x",
+      "old_price": 950,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "essential-oils.x",
+      "old_price": 95,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "hairrestorationclinic.x",
+      "old_price": 3000,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "prestigepawnbrokers.x",
+      "old_price": 995,
+      "new_price": 5000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "theperfectmachine.x",
+      "old_price": 995,
+      "new_price": 3000,
+      "category": "General/Brandable",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "adelefan.x",
+      "old_price": 2000,
+      "new_price": 2000,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "007bond.x",
+      "old_price": 2995,
+      "new_price": 2500,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "elvistributeartist.x",
+      "old_price": 2995,
+      "new_price": 2500,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "queenliveaid.x",
+      "old_price": 2995,
+      "new_price": 3000,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "ziggystardust.x",
+      "old_price": 4000,
+      "new_price": 4000,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "iwanttobreakfree.x",
+      "old_price": 2495,
+      "new_price": 3000,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "onevision.x",
+      "old_price": 2495,
+      "new_price": 3000,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "radiogaga.x",
+      "old_price": 2495,
+      "new_price": 2495,
+      "category": "",
+      "basis": "patient .x scoring"
+    },
+    {
+      "domain": "worldsgreatestelvis.x",
+      "old_price": 2495,
+      "new_price": 2495,
+      "category": "",
+      "basis": "patient .x scoring"
+    }
+  ]
+}

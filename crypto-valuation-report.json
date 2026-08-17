@@ -1,88 +1,88 @@
 {
-  "generated": "2026-08-17T07:18:04.057Z",
+  "generated": "2026-08-17T07:33:09.260Z",
   "count": 109,
   "method": "patient end-user seller pricing: real-world commercial intent, customer-acquisition value, memorability, extension fit, conservative fan/IP treatment",
   "valuations": [
     {
       "domain": "pizzamenu.crypto",
-      "old_price": 2495,
+      "old_price": 12500,
       "new_price": 12500,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "oddson.crypto",
-      "old_price": 1195,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Gaming",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "sealedbid.crypto",
-      "old_price": 1195,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "havecashnow.crypto",
-      "old_price": 3000,
+      "old_price": 15000,
       "new_price": 15000,
       "category": "Finance",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "lenditnow.crypto",
-      "old_price": 1195,
+      "old_price": 30000,
       "new_price": 30000,
       "category": "Finance",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "ourmenu.crypto",
-      "old_price": 1195,
+      "old_price": 17500,
       "new_price": 17500,
       "category": "Commerce",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "sellmyphone.crypto",
-      "old_price": 1195,
+      "old_price": 20000,
       "new_price": 20000,
       "category": "Commerce",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "dubaitycoon.crypto",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "livevegan.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Energy",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "loanmemoney.crypto",
-      "old_price": 1000,
+      "old_price": 12500,
       "new_price": 12500,
       "category": "Finance",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "mrroulette.crypto",
-      "old_price": 1995,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Gaming",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "refinancer.crypto",
-      "old_price": 395,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Finance",
       "basis": "patient end-user scoring"
@@ -103,21 +103,21 @@
     },
     {
       "domain": "investmentfundlive.crypto",
-      "old_price": 395,
+      "old_price": 20000,
       "new_price": 20000,
       "category": "Finance",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "hotelsforless.crypto",
-      "old_price": 995,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "liveroulettegame.crypto",
-      "old_price": 395,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "Gaming",
       "basis": "patient end-user scoring"
@@ -138,7 +138,7 @@
     },
     {
       "domain": "missellie.crypto",
-      "old_price": 395,
+      "old_price": 12500,
       "new_price": 12500,
       "category": "Commerce",
       "basis": "patient end-user scoring"
@@ -152,7 +152,7 @@
     },
     {
       "domain": "arbing.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
@@ -166,203 +166,203 @@
     },
     {
       "domain": "burials.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "godard.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "holidaybargains.crypto",
-      "old_price": 850,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "holidaydubai.crypto",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "lasvegasnights.crypto",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "marxman.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "mybandb.crypto",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Identity",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "pawnit.crypto",
-      "old_price": 1400,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "rouletteexchange.crypto",
-      "old_price": 395,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Gaming",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "udaman.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "musicalbums.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Music",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "vegasroomsforless.crypto",
-      "old_price": 995,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "vegasshowsforless.crypto",
-      "old_price": 995,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "westendshowsforless.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Travel",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "samesex.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "afforditnow.crypto",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "donatelive.crypto",
-      "old_price": 995,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "fastfoodmenu.crypto",
-      "old_price": 395,
+      "old_price": 15000,
       "new_price": 15000,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "indiantakeout.crypto",
-      "old_price": 395,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "livemusicgigs.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Music",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "secondhandmarket.crypto",
-      "old_price": 395,
+      "old_price": 10000,
       "new_price": 10000,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "theauctionroom.crypto",
-      "old_price": 395,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "tipthedriver.crypto",
-      "old_price": 395,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Auto",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "adultarcade.crypto",
-      "old_price": 750,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "bookabillboard.crypto",
-      "old_price": 95,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "borntosing.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "dinglegin.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "donateacoin.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "donatebit.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
@@ -383,385 +383,385 @@
     },
     {
       "domain": "ewingoil.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "friendsbook.crypto",
-      "old_price": 3000,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "godardart.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "inksupplies.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "markleen.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "meanmachine.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "ohmygodard.crypto",
-      "old_price": 500,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Identity",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "ohmygodart.crypto",
-      "old_price": 500,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Identity",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "olblueeyes.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "pennystox.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "punterspal.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "purchasein.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "redsoles.crypto",
-      "old_price": 950,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "smokeking.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "sortmybooks.crypto",
-      "old_price": 95,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Identity",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "swankytramp.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thebookies.crypto",
-      "old_price": 95,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thenuplace.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "transactin.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "watchamovie.crypto",
-      "old_price": 600,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "whatasinger.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "winetrack.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "godardartist.crypto",
-      "old_price": 495,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Music",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "licenceasong.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Music",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "licenseasong.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Music",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "roseoftralee.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Geo",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "sexetera.crypto",
-      "old_price": 700,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "cardsforalloccasions.crypto",
-      "old_price": 495,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Auto",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "fragranceforless.crypto",
-      "old_price": 550,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "goldandsilverpawnshop.crypto",
-      "old_price": 2000,
+      "old_price": 10000,
       "new_price": 10000,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thegoldandsilverpawnshop.crypto",
-      "old_price": 950,
+      "old_price": 10000,
       "new_price": 10000,
       "category": "Commerce",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "anumber1.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "smoke-king.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "godardscrazylife.crypto",
-      "old_price": 495,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "jesusandmary.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "raribletreasures.crypto",
-      "old_price": 95,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "sandboxworld.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "signaturedomains.crypto",
-      "old_price": 95,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thanksamillion.crypto",
-      "old_price": 95,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thanksforthetip.crypto",
-      "old_price": 800,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "theindependant.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thereikimaster.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Identity",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thetobacconist.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "thetruthwillout.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "tradeallcoins.crypto",
-      "old_price": 95,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "vivalostwages.crypto",
-      "old_price": 1000,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "wallstreetgekko.crypto",
-      "old_price": 995,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "yourancestry.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "Identity",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "goldandsilverpawn.crypto",
-      "old_price": 95,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "rockmanpublications.crypto",
-      "old_price": 95,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "the-tobacconist.crypto",
-      "old_price": 95,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "verifiedautographs.crypto",
-      "old_price": 999,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "General/Brandable",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "elvistributeartist.crypto",
-      "old_price": 2495,
+      "old_price": 1500,
       "new_price": 1500,
       "category": "",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "elvisworld.crypto",
-      "old_price": 2495,
+      "old_price": 2000,
       "new_price": 2000,
       "category": "",
       "basis": "patient end-user scoring"
     },
     {
       "domain": "jrewing.crypto",
-      "old_price": 1995,
+      "old_price": 3500,
       "new_price": 3500,
       "category": "",
       "basis": "patient end-user scoring"
