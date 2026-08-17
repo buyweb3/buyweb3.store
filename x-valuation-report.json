@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T07:33:09.347Z",
+  "generated": "2026-08-17T07:49:34.944Z",
   "count": 123,
   "method": "patient end-user .x pricing including commercial intent, extension-as-X wordplay, recurring seasonal utility, memorability and conservative fan/IP treatment",
   "valuations": [
@@ -96,7 +96,7 @@
     },
     {
       "domain": "sealedbid.x",
-      "old_price": 1995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -117,14 +117,14 @@
     },
     {
       "domain": "sellfree.x",
-      "old_price": 4000,
+      "old_price": 20000,
       "new_price": 20000,
       "category": "Commerce",
       "basis": "patient .x scoring"
     },
     {
       "domain": "dubaitycoon.x",
-      "old_price": 7000,
+      "old_price": 10000,
       "new_price": 10000,
       "category": "Travel",
       "basis": "patient .x scoring"
@@ -145,7 +145,7 @@
     },
     {
       "domain": "vegasnights.x",
-      "old_price": 4995,
+      "old_price": 12500,
       "new_price": 12500,
       "category": "Travel",
       "basis": "patient .x scoring"
@@ -173,7 +173,7 @@
     },
     {
       "domain": "money2burn.x",
-      "old_price": 1995,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Finance",
       "basis": "patient .x scoring"
@@ -194,7 +194,7 @@
     },
     {
       "domain": "injury-lawyer.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Legal",
       "basis": "patient .x scoring"
@@ -215,7 +215,7 @@
     },
     {
       "domain": "fabulouslasvegas.x",
-      "old_price": 5000,
+      "old_price": 12500,
       "new_price": 12500,
       "category": "Travel",
       "basis": "patient .x scoring"
@@ -236,14 +236,14 @@
     },
     {
       "domain": "nuplace.x",
-      "old_price": 1395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "partyse.x",
-      "old_price": 4995,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -271,7 +271,7 @@
     },
     {
       "domain": "imalondoner.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Geo",
       "basis": "patient .x scoring"
@@ -292,7 +292,7 @@
     },
     {
       "domain": "musicartist.x",
-      "old_price": 1995,
+      "old_price": 10000,
       "new_price": 10000,
       "category": "Music",
       "basis": "patient .x scoring"
@@ -320,63 +320,63 @@
     },
     {
       "domain": "lowcostperfume.x",
-      "old_price": 6700,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "Commerce",
       "basis": "patient .x scoring"
     },
     {
       "domain": "luckynumber8.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Gaming",
       "basis": "patient .x scoring"
     },
     {
       "domain": "al-arab.x",
-      "old_price": 2500,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "compensationlawyer.x",
-      "old_price": 2500,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Legal",
       "basis": "patient .x scoring"
     },
     {
       "domain": "ireland32.x",
-      "old_price": 650,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Geo",
       "basis": "patient .x scoring"
     },
     {
       "domain": "adultarcade.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "ayrtonsenna.x",
-      "old_price": 1395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "bigjukebo.x",
-      "old_price": 1000,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "clockwor.x",
-      "old_price": 1000,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -390,28 +390,28 @@
     },
     {
       "domain": "duranduran.x",
-      "old_price": 650,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "eatmeats.x",
-      "old_price": 999,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "fineartwor.x",
-      "old_price": 800,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "finestdeals.x",
-      "old_price": 1000,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -425,119 +425,119 @@
     },
     {
       "domain": "georgefloyd.x",
-      "old_price": 700,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "getresults.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "jameslast.x",
-      "old_price": 1995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "jesusislord.x",
-      "old_price": 995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "ladyluck.x",
-      "old_price": 2200,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "lovescreen.x",
-      "old_price": 6700,
+      "old_price": 7000,
       "new_price": 7000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "markleen.x",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "mostbanned.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "mytokens.x",
-      "old_price": 995,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Identity",
       "basis": "patient .x scoring"
     },
     {
       "domain": "nuplacecafe.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "parkavenue.x",
-      "old_price": 995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "payatthebo.x",
-      "old_price": 395,
+      "old_price": 8000,
       "new_price": 8000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "pennysto.x",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "poshpawn.x",
-      "old_price": 3000,
+      "old_price": 10000,
       "new_price": 10000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "redsoles.x",
-      "old_price": 3400,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "rosearena.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "sunnybeach.x",
-      "old_price": 995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -558,56 +558,56 @@
     },
     {
       "domain": "thanksalot.x",
-      "old_price": 1500,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "thememphian.x",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "thewatchman.x",
-      "old_price": 395,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "unseizeable.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "yourlover.x",
-      "old_price": 4000,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "Identity",
       "basis": "patient .x scoring"
     },
     {
       "domain": "greatbritish.x",
-      "old_price": 395,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Geo",
       "basis": "patient .x scoring"
     },
     {
       "domain": "roseoftralee.x",
-      "old_price": 900,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Geo",
       "basis": "patient .x scoring"
     },
     {
       "domain": "theroseoftralee.x",
-      "old_price": 900,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Geo",
       "basis": "patient .x scoring"
@@ -628,42 +628,42 @@
     },
     {
       "domain": "anumber1.x",
-      "old_price": 1000,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "snooker147.x",
-      "old_price": 741,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "billboarders.x",
-      "old_price": 995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "boughtthedip.x",
-      "old_price": 1000,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "doggiewoggies.x",
-      "old_price": 95,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "drkingandmalcolm.x",
-      "old_price": 500,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -677,28 +677,28 @@
     },
     {
       "domain": "iamnotaterrorist.x",
-      "old_price": 95,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "Identity",
       "basis": "patient .x scoring"
     },
     {
       "domain": "madeinheaven.x",
-      "old_price": 995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "merrychristmas.x",
-      "old_price": 5000,
+      "old_price": 25000,
       "new_price": 25000,
       "category": "General/Brandable",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "perfectmachine.x",
-      "old_price": 999,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -712,42 +712,42 @@
     },
     {
       "domain": "remembermalcolm.x",
-      "old_price": 700,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "sandboxworld.x",
-      "old_price": 800,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "secondhandstuff.x",
-      "old_price": 2500,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "signatureroom.x",
-      "old_price": 2000,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "thanksamillion.x",
-      "old_price": 500,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "thankyouverymuch.x",
-      "old_price": 999,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -761,21 +761,21 @@
     },
     {
       "domain": "authenticmemorabilia.x",
-      "old_price": 2400,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "bitcoinsuperstore.x",
-      "old_price": 950,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "essential-oils.x",
-      "old_price": 95,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -789,14 +789,14 @@
     },
     {
       "domain": "prestigepawnbrokers.x",
-      "old_price": 995,
+      "old_price": 5000,
       "new_price": 5000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
     },
     {
       "domain": "theperfectmachine.x",
-      "old_price": 995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "General/Brandable",
       "basis": "patient .x scoring"
@@ -810,21 +810,21 @@
     },
     {
       "domain": "007bond.x",
-      "old_price": 2995,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "",
       "basis": "patient .x scoring"
     },
     {
       "domain": "elvistributeartist.x",
-      "old_price": 2995,
+      "old_price": 2500,
       "new_price": 2500,
       "category": "",
       "basis": "patient .x scoring"
     },
     {
       "domain": "queenliveaid.x",
-      "old_price": 2995,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "",
       "basis": "patient .x scoring"
@@ -838,14 +838,14 @@
     },
     {
       "domain": "iwanttobreakfree.x",
-      "old_price": 2495,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "",
       "basis": "patient .x scoring"
     },
     {
       "domain": "onevision.x",
-      "old_price": 2495,
+      "old_price": 3000,
       "new_price": 3000,
       "category": "",
       "basis": "patient .x scoring"
