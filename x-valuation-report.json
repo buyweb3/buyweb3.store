@@ -1,19 +1,19 @@
 {
-  "generated": "2026-08-17T10:19:40.694Z",
+  "generated": "2026-08-17T10:34:24.739Z",
   "count": 123,
   "method": "patient end-user .x pricing including commercial intent, extension-as-X wordplay, recurring seasonal utility, memorability and conservative fan/IP treatment",
   "valuations": [
     {
       "domain": "bookaflight.x",
       "old_price": 12500,
-      "new_price": 17500,
+      "new_price": 25000,
       "category": "Travel",
       "basis": "hand-curated end-user"
     },
     {
       "domain": "bookahotel.x",
       "old_price": 12500,
-      "new_price": 17500,
+      "new_price": 25000,
       "category": "Travel",
       "basis": "hand-curated end-user"
     },
@@ -48,7 +48,7 @@
     {
       "domain": "injuryclaims.x",
       "old_price": 9500,
-      "new_price": 15000,
+      "new_price": 20000,
       "category": "Legal",
       "basis": "hand-curated end-user"
     },
@@ -188,7 +188,7 @@
     {
       "domain": "thepawnshop.x",
       "old_price": 12500,
-      "new_price": 17500,
+      "new_price": 20000,
       "category": "Commerce",
       "basis": "hand-curated end-user"
     },
