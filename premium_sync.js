@@ -4,6 +4,7 @@ let index=fs.readFileSync(indexPath,'utf8');
 
 // Final presentation-only synchronization. Runs AFTER .crypto and .x valuations so
 // Premium Picks always displays the same asking prices as the marketplace/domain pages.
+// This file is also a build trigger whenever premium presentation logic changes.
 const premium=[
   ['thecheckout.crypto','Flagship crypto-commerce identity for checkout, payment gateways and Web3 transactions'],
   ['lenditnow.crypto','Memorable action-led fintech and DeFi lending brand'],
