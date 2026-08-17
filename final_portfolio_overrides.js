@@ -7,6 +7,7 @@ let index=fs.readFileSync(indexPath,'utf8');
 const prices={
   'energysaver.x':27500,
   'casinoresort.wallet':995,
+  '007bond.x':7000,
 
   // Elvis / TCB fan-use portfolio: stronger .x names priced above wallet identities.
   'worldsgreatestelvis.x':7500,
@@ -46,8 +47,8 @@ for(const [domain,price] of Object.entries(prices)){
 // Keep EnergySaver.x visibly premium after the final valuation pass.
 index=index.replace(/\{"domain":"energysaver\.x"[^}]*\}/,m=>{try{const o=JSON.parse(m);o.price=27500;o.grade='Premium';o.featured=true;o.score=Math.max(Number(o.score)||0,77);return JSON.stringify(o)}catch(e){return m}});
 
-// Generic rock-and-roll stage artwork for all actual Elvis/TCB listings in the catalogue.
-// Deliberately avoids representing or claiming to depict Elvis Presley himself.
+// Elvis / TCB fan-use treatment: retro record player and 1950s Memphis recording-studio atmosphere.
+// No Elvis likeness, official logo or endorsement is implied.
 const elvis=[
   'elvisfan.wallet','elvistheking.wallet','elvistributeartist.wallet','elvistributeartist.x',
   'elvistributeartist.crypto','iloveelvis.wallet','elvislives.wallet','elvispresleyrip.wallet',
@@ -56,8 +57,20 @@ const elvis=[
 for(const domain of elvis){
   const p=path.join(domainDir,domain,'index.html'); if(!fs.existsSync(p))continue;
   let s=fs.readFileSync(p,'utf8');
-  s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('/assets/elvis-stage.svg')`);
-  if(!s.includes('id="elvis-stage-fix"'))s=s.replace('</head>',`<style id="elvis-stage-fix">.hero{background-image:linear-gradient(90deg,rgba(3,10,19,.90),rgba(5,17,30,.12)),var(--hero)!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}@media(max-width:760px){.hero{background-image:linear-gradient(180deg,rgba(3,10,19,.48),rgba(5,17,30,.76)),var(--hero)!important;background-position:62% center!important}}</style></head>`);
+  s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('/assets/elvis-recording-studio.svg')`);
+  s=s.replace(/<style id="elvis-stage-fix">[\s\S]*?<\/style>/g,'');
+  if(!s.includes('id="elvis-recording-fix"'))s=s.replace('</head>',`<style id="elvis-recording-fix">.hero{background-image:linear-gradient(90deg,rgba(3,10,19,.90),rgba(5,17,30,.10)),var(--hero)!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}@media(max-width:760px){.hero{background-image:linear-gradient(180deg,rgba(3,10,19,.48),rgba(5,17,30,.76)),var(--hero)!important;background-position:62% center!important}}</style></head>`);
+  fs.writeFileSync(p,s);
+}
+
+// 007/Bond fan-use treatment: elegant generic spy silhouette in a tuxedo under a spotlight.
+// No actor likeness, franchise logo or claim of official affiliation.
+const bond=['007bond.x'];
+for(const domain of bond){
+  const p=path.join(domainDir,domain,'index.html'); if(!fs.existsSync(p))continue;
+  let s=fs.readFileSync(p,'utf8');
+  s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('/assets/spy-tuxedo-spotlight.svg')`);
+  s=s.replace(/<div class="grid">[\s\S]*?<\/div><div class="notice">/,`<div class="grid"><div class="box"><strong>Independent spy fan club</strong><br>Show your love for the world's best-loved spy with an unmistakable Web3 identity for an independent fan club, discussion group or enthusiast community.</div><div class="box"><strong>Memorabilia & collectors</strong><br>Create a destination for collectors to discuss memorabilia, rare editions, posters, models, watches, cars and other spy-film collectibles without implying official affiliation.</div><div class="box"><strong>Enthusiast community</strong><br>Build a memorable home for fan stories, collections and enthusiast culture around 007bond.x while keeping the project clearly unofficial and independent.</div></div><div class="notice">`);
   fs.writeFileSync(p,s);
 }
 
@@ -74,5 +87,4 @@ if(fs.existsSync(about)){
 }
 
 fs.writeFileSync(indexPath,index);
-console.log('Final portfolio pricing, Elvis/TCB stage imagery and founder-image fallback applied.');
-// Build trigger: final portfolio pass including casinoresort.wallet review.
+console.log('Final portfolio pricing, Elvis/TCB recording-studio imagery and 007 fan-use presentation applied.');
