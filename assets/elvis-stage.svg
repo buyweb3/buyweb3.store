@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Rock and roll concert stage backdrop">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070912"/><stop offset=".52" stop-color="#11162a"/><stop offset="1" stop-color="#03050b"/></linearGradient>
+  <radialGradient id="blue"><stop offset="0" stop-color="#36b8ff" stop-opacity=".72"/><stop offset="1" stop-color="#36b8ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gold"><stop offset="0" stop-color="#ffc857" stop-opacity=".74"/><stop offset="1" stop-color="#ffc857" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="26"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<ellipse cx="1180" cy="340" rx="560" ry="420" fill="url(#blue)" filter="url(#blur)"/>
+<ellipse cx="1430" cy="150" rx="360" ry="300" fill="url(#gold)" filter="url(#blur)"/>
+<path d="M1240 105 L930 810" stroke="#63d3ff" stroke-width="42" opacity=".12"/>
+<path d="M1510 20 L1170 780" stroke="#ffd36c" stroke-width="34" opacity=".1"/>
+<g transform="translate(1055 182)" fill="#020308" opacity=".96">
+  <path d="M115 73c-28 8-52 31-62 61-9 27-3 58 15 79-28 17-50 50-60 95-12 55-6 132 14 203 9 34 8 79-3 137l-20 107h282l-20-108c-11-59-12-105-3-139 18-68 26-144 13-199-10-46-33-80-62-97 17-20 23-48 15-75-8-27-28-50-53-61 7-18 4-34-8-48-23 8-42 21-57 39-5-17-1-34 9-50-30 6-52 25-65 55 20-8 42-8 65 0z"/>
+  <path d="M41 338c-40 34-77 84-108 151l53 26c35-66 67-105 96-125zm196 15c37 31 71 75 101 135l-49 31c-34-62-65-97-94-116z"/>
+</g>
+<g transform="translate(980 260)" stroke="#d4d9e5" fill="none" opacity=".72">
+  <path d="M160 174 L222 575" stroke-width="11"/>
+  <ellipse cx="148" cy="144" rx="28" ry="54" transform="rotate(-12 148 144)" stroke-width="10"/>
+  <path d="M123 126c24-12 48-13 72-2" stroke-width="6"/>
+</g>
+<g fill="#ffd56c" opacity=".5" font-family="Arial,Helvetica,sans-serif" font-weight="700">
+  <text x="1260" y="665" font-size="64">♪</text><text x="1390" y="535" font-size="42">♫</text><text x="1130" y="760" font-size="48">♪</text>
+</g>
+<g opacity=".38"><circle cx="1120" cy="890" r="14" fill="#59d2ff"/><circle cx="1210" cy="900" r="10" fill="#ffd56c"/><circle cx="1310" cy="885" r="13" fill="#59d2ff"/><circle cx="1400" cy="902" r="9" fill="#ffd56c"/><circle cx="1495" cy="888" r="12" fill="#59d2ff"/></g>
+<rect x="0" y="0" width="760" height="1000" fill="#05070d" opacity=".32"/>
+</svg>
