@@ -15,19 +15,16 @@ const adeleImg='https://images.unsplash.com/photo-1501386761578-eac5c94b800a?aut
 const adeleNames=['adelefan.x','adelefan.wallet','adelelive.x','adelelive.crypto','adelelive.nft','adelelive.wallet'];
 for(const name of adeleNames) setHero(name,adeleImg);
 
-// Elvis / TCB fan-use treatment: retro record player with a 1950s Memphis recording-studio atmosphere.
-// No Elvis likeness, official logo or endorsement is implied.
-const elvisImg='/assets/elvis-recording-studio.svg';
-const elvisNames=[
-  'elvisfan.wallet','elvistheking.wallet','elvistributeartist.wallet','elvistributeartist.x','elvistributeartist.crypto',
-  'iloveelvis.wallet','elvislives.wallet','elvispresleyrip.wallet','worldsgreatestelvis.x','elvisworld.crypto','elvisworld.zil',
-  'tcbinaflash.wallet'
-];
-for(const name of elvisNames) setHero(name,elvisImg);
+// Owner-approved Elvis / TCB fan-use visual.
+const elvisImg='/assets/elvis-tcb-approved.webp';
+for(const name of fs.readdirSync(dir).filter(n=>/(elvis|tcb)/i.test(n))) setHero(name,elvisImg);
 
-// Beatles fan-use treatment: unmistakable British zebra-crossing visual cue without using band likenesses or logos.
-const beatlesImg='/assets/abbey-road-crossing.svg';
-const beatlesNames=['beatlesfan.wallet','beatlesfan.x'];
-for(const name of beatlesNames) setHero(name,beatlesImg);
+// Owner-approved Beatles fan-use visual.
+const beatlesImg='/assets/beatles-approved.webp';
+for(const name of fs.readdirSync(dir).filter(n=>/beatles/i.test(n))) setHero(name,beatlesImg);
 
-console.log('Protected Adele, Elvis/TCB and Beatles fan-use background imagery applied.');
+// Owner-approved 007/Bond fan-use visual.
+const bondImg='/assets/bond007-approved.webp';
+for(const name of fs.readdirSync(dir).filter(n=>/(^007|bond)/i.test(n))) setHero(name,bondImg);
+
+console.log('Approved Elvis/TCB, Beatles and 007/Bond artwork applied.');
