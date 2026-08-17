@@ -75,3 +75,4 @@ if(fs.existsSync(about)){
 
 fs.writeFileSync(indexPath,index);
 console.log('Final portfolio pricing, Elvis/TCB stage imagery and founder-image fallback applied.');
+// Build trigger: final portfolio pass including casinoresort.wallet review.
