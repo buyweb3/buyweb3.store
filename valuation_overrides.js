@@ -5,7 +5,7 @@ let index=fs.readFileSync(indexPath,'utf8');
 // Seller asking-price strategy, not an independent appraisal. 2026 portfolio pass:
 // commercial clarity + memorability + extension fit + end-user breadth + Web3 sale patterns.
 const prices={
-'bookaflight.x':12500,'bookahotel.x':12500,'grandhotel.x':15000,'thecheckout.crypto':12500,'thepawnshop.x':12500,
+'bookaflight.x':12500,'bookahotel.x':12500,'grandhotel.x':15000,'thecheckout.crypto':20000,'thepawnshop.x':12500,
 'bargainholidays.x':9500,'injuryclaims.x':9500,'energysaver.x':8500,'investdubai.x':7500,'onlinecrypto.x':7500,
 'pizzamenu.x':7500,'swisstime.x':7500,'sellyourdomain.x':7500,'casinolive.x':7500,'casinoresort.x':7500,
 'assetportfolio.x':6500,'bookingonline.x':6500,'onlinefoodmenu.x':6500,'fastfoodmenu.x':6500,'hotelsforless.x':6500,
@@ -18,7 +18,7 @@ const prices={
 };
 const premium=['thecheckout.crypto','grandhotel.x','bookahotel.x','bookaflight.x','thepawnshop.x','injuryclaims.x','bargainholidays.x','investdubai.x','onlinecrypto.x','songsdirect.crypto'];
 const reasons={
-'thecheckout.crypto':'Crypto-native ecommerce and payments identity','grandhotel.x':'Short global luxury-hospitality brand',
+'thecheckout.crypto':'Flagship crypto-commerce identity for payments, merchant checkout and Web3 transactions','grandhotel.x':'Short global luxury-hospitality brand',
 'bookahotel.x':'Exact commercial action for hotel booking','bookaflight.x':'Exact commercial action for flight booking',
 'thepawnshop.x':'Exact-category commerce brand with strong recall','injuryclaims.x':'High-intent legal and claims lead-generation term',
 'bargainholidays.x':'Clear consumer travel proposition with broad reach','investdubai.x':'Investment plus premium geographic market',
@@ -38,6 +38,19 @@ for(const [domain,price] of Object.entries(prices)){
      .replace(/%24[\d%2C]+/gi,()=>encoded);
   fs.writeFileSync(p,s);
 }
+
+// Flagship treatment for TheCheckout.crypto: protect its imagery and replace generic use-copy with a sales-led proposition.
+{
+  const p=path.join(dir,'thecheckout.crypto','index.html');
+  if(fs.existsSync(p)){
+    let s=fs.readFileSync(p,'utf8');
+    const img='https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=2200&q=90';
+    s=s.replace(/--hero:url\('[^']+'\)/,`--hero:url('${img}')`)
+      .replace(/<p class="copy">[\s\S]*?<\/p><\/article>/,`<p class="copy"><strong>A premium crypto-commerce address:</strong> TheCheckout.crypto puts the transaction moment directly into the brand — memorable for customers, commercially clear for merchants and naturally aligned with digital payments.</p></article>`)
+      .replace(/<div class="eyebrow">Ideas for this name<\/div>[\s\S]*?<div class="notice">/,`<div class="eyebrow">Why this name matters</div><h2>Built for the moment commerce becomes a transaction</h2><div class="grid"><div class="box"><strong>Crypto checkout & payment gateway</strong><br>A direct, credible identity for a merchant checkout, stablecoin payment service, wallet-to-merchant flow or Web3 payments platform. The name tells customers what the product does before they read another word.</div><div class="box"><strong>Ecommerce integration & API</strong><br>Ideal for checkout software, plugins, payment links, developer APIs or infrastructure that lets online stores accept digital assets. “The Checkout” is easy to say, remember and build a product around.</div><div class="box"><strong>Brandable commercial asset</strong><br>The word “checkout” sits at the highest-value point of ecommerce: conversion and payment. Paired with .crypto, it creates a focused address for a business operating where digital commerce and blockchain payments meet.</div></div><div class="notice">`);
+    fs.writeFileSync(p,s);
+  }
+}
 for(const domain of premium){
   const rx=new RegExp(`\\{"domain":"${esc(domain)}"[^}]*\\}`);
   index=index.replace(rx,m=>{try{const o=JSON.parse(m);o.grade='Premium';o.featured=true;o.score=Math.max(Number(o.score)||0,80-premium.indexOf(domain));return JSON.stringify(o)}catch(e){return m}});
@@ -51,4 +64,4 @@ const cards=premium.map(name=>`<a class="premium-card" href="/domain/${name}/"><
 const block=`<!-- BUYWEB3_PREMIUM_START --><section id="premium" class="premium-market"><div class="wrap"><div class="eyebrow">Curated portfolio leaders</div><div class="section-head"><div><h2>Premium Picks</h2><p class="premium-intro">A focused selection of BuyWeb3 names with the strongest combination of commercial intent, memorability, extension fit and potential end-user appeal.</p></div></div><div class="premium-grid">${cards}</div><div class="premium-note">Prices shown are seller asking prices, not independent appraisals or guarantees of future resale value.</div></div></section><!-- BUYWEB3_PREMIUM_END -->`;
 index=index.replace('<main id="marketplace" class="market">',block+'\n<main id="marketplace" class="market">');
 fs.writeFileSync(indexPath,index);
-console.log('Protected valuation and Premium Picks pass applied.');
+console.log('Protected valuation, flagship checkout and Premium Picks pass applied.');
