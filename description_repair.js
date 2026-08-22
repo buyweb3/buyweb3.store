@@ -32,3 +32,4 @@ for(const name of fs.readdirSync(dir)){
  fs.writeFileSync(p,s); if(i) changed++;
 }
 console.log(`Description repair updated ${changed} domain pages; image/background markup was not touched.`);
+// merged through PR to trigger the marketplace rebuild
